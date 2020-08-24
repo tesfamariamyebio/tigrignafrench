@@ -6,6 +6,15 @@ body{
     font-family: 'Zilla Slab', serif;
     box-sizing: border-box;
 }
+#progressif{
+    height:300px;
+    width:370px;
+    background-color:white;
+    display:inline-block; 
+    padding-left:3px;
+    margin-bottom:3px;
+
+}
 .columnverbes2{height:200px;
     width:370px;
     background-color:white;
