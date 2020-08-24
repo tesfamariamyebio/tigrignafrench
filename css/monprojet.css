@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital@1&family=Zilla+Slab:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin:0;
+    background-color: rgba(168, 0, 0, 0.329);
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box;
+}
+.navbar {background-color:rgba(0, 0, 0, 0.932);
+    overflow: hidden;
+    font-family: 'Zilla Slab', serif;
+   
+} 
+.navbar a {float:left;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    padding :14px 16px;
+    font-family: 'Zilla Slab', serif;
+   
+}
+
+.dropdown{float:left;
+    overflow:hidden;
+    font-family: 'Zilla Slab', serif;
+}
+.dropdown .dropbutton{
+    font-size: 16px;
+    border:none;
+    outline:none;
+    color:white;
+    margin: 0;
+    background-color: inherit;
+    padding:14px 16px;
+    font-family: 'Zilla Slab', serif;
+  
+}
+.navbar a:hover, .dropdown:hover .dropbutton{
+    background-color:red;
+    
+}
+.dropdown-menu {display:none;
+    position:absolute;
+    background-color: rgba(168, 0, 0, 0.329);
+    width:100%;
+    left:0;
+    z-index: 1;
+    box-shadow:0px 6px 12px 0px;
+    font-family: 'Zilla Slab', serif;
+
+}
+.dropdown-menu .header {background:blue;
+    padding:16px;
+    text-align: center;
+    color:white;
+}
+
+.dropdown-menu .headers{background:red;
+    padding:16px;
+    text-align: center;
+    color:white;
+
+}
+.dropdown-menu .headersv{background:green;
+    padding:16px;
+    text-align: center;
+    color:white;
+
+}
+
+.dropdown:hover .dropdown-menu {display:block;
+   
+}
+.column{
+    float:left;
+    width:33.33%;
+    padding:10px;
+    background-color: gainsboro;
+    height: 400px;
+}
+.column a{float:none;
+    color:black;
+    text-decoration: none;
+    text-align: left;
+    display:block;
+    font-size: 18px;
+}
+.column  a:hover{
+    background: gray;
+   
+}
+.columngrammaire{float:left;
+    width:33.33%;
+    padding:10px;
+    background-color:rgb(212, 212, 212);
+    height: 500px;
+}
+.columngrammaire a{float:none;
+    color:black;
+    text-decoration: none;
+    text-align: left;
+    display:block;
+    font-size: 16px;;
+
+}
+
+.columngrammaire a:hover{background: rgb(133, 124, 124);
+
+}
+.columnvocabulaire{float:left;
+    width:33.33%;
+    padding:10px;
+    background-color: gainsboro;
+    height: 500px;
+}
+.columnvocabulaire a{float:none;
+    color:black;
+    text-decoration: none;
+    text-align: left;
+    display:block;
+
+}
+
+.columnvocabulaire a:hover{background: red;
+
+}
+.contactlien{
+    margin-left:600px;
+}
+.row{
+    background-color: rgba(168, 0, 0, 0.329);
+}
+.row:after{content:"";
+    display:table;
+    clear:both;
+
+}
+
+
+/*----mobile setting */
+@media (max-width:576px){
+    @import url('https://fonts.googleapis.com/css2?family=Judson:ital@1&family=Zilla+Slab:wght@600&display=swap');
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:0;
+        background-color: white;
+        font-family: 'Zilla Slab', serif;
+     
+    }
+    .navbar {background-color:blue;
+        overflow: hidden;
+    
+    } 
+    .navbar a {float:left;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        padding :12px 14px;
+        font-family: 'Zilla Slab', serif;
+        
+    }
+    .dropdown{float:left;
+        overflow:hidden;
+    }
+    .dropdown .dropbutton{
+        font-size: 16px;
+        border:none;
+        outline:none;
+        color:white;
+        margin: 0;
+        background-color: inherit;
+        padding:12px 14px;
+    }
+    .navbar a:hover, .dropdown:hover .dropbutton{
+        background-color:red;
+        
+    }
+    .dropdown-menu {display:none;
+        position:absolute;
+        background-color: #f9f9f9;
+        width:100%;
+        left:0;
+        z-index: 1;
+        box-shadow:0px 6px 12px 0px;
+    
+    }
+    .dropdown-menu .header {background:blue;
+        padding:14px;
+        text-align: center;
+        color:white;
+    }
+    
+    .dropdown-menu .headers{background:red;
+        padding:14px;
+        text-align: center;
+        color:white;
+    
+    }
+    .dropdown-menu .headersv{background:green;
+        padding:14px;
+        text-align: center;
+        color:white;
+    
+    }
+    
+    .dropdown:hover .dropdown-menu {display:block;
+       
+    }
+    .column{
+        float:left;
+        width:33.33%;
+        padding:8px;
+        background-color: gainsboro;
+        height: 400px;
+    }
+    .column a{float:none;
+        color:black;
+        text-decoration: none;
+        text-align: left;
+        display:block;
+        font-size: 16px;
+    }
+    .column  a:hover{
+        background: gray;
+       
+    }
+    .columngrammaire{float:left;
+        width:33.33%;
+        padding:8px;
+        background-color: gainsboro;
+        height: 450px;
+    }
+    .columngrammaire a{float:none;
+        color:black;
+        text-decoration: none;
+        text-align: left;
+        display:block;
+        font-size:14px;
+    
+    }
+    
+    .columngrammaire a:hover{background: white;
+    
+    }
+    .columnvocabulaire{float:left;
+        width:33.33%;
+        padding:8px;
+        background-color: gainsboro;
+        height: 400px;
+    }
+    .columnvocabulaire a{float:none;
+        color:black;
+        text-decoration: none;
+        text-align: left;
+        display:block;
+    }
+    .contactlien{
+        margin-left:0px;
+    }
+    
+    .columnvocabulaire a:hover{background: red;
+    
+    }
+    .row:after{content:"";
+        display:table;
+        clear:both;
+    
+    }
+    
+
+}

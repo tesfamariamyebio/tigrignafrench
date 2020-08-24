@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital@1&family=Zilla+Slab:wght@600&display=swap');
+
+body{
+    background-color:whitesmoke;
+    font-style: normal;
+    font-family: 'Zilla Slab', serif;
+}
+h2{
+    text-align: center;
+   color:brown;
+   
+   
+}
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+table{background-color:#bbb;
+   
+    width: 100%;
+}
+table,tr,td,th{
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+    font-size: 18px;
+    /* font-family:  sans-serif; */
+    
+}
+th{
+    background-color: orangered;
+    height: 40px;
+}
+th:hover{
+    background-color: gray;
+    height: 40px;
+}
+.rowtable{
+    margin-left:200px;
+    height: 100%;
+    width: 700px;
+    background-color: white;
+}
+/* .columntable{
+    font-family: Lucida;
+
+} */
+.pr{
+    background-color: chartreuse;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    width:100%;
+   
+}
+li{
+    list-style-type: none;
+    font-size: 18px;
+}
+ul{
+    display:none;
+    margin-left: 0px;
+    margin-top:0px;
+   
+}
+
+@media (max-width:576px) {
+    body{
+        background-color:whitesmoke;
+        font-style: normal;
+        
+        /* font-family:Lucida; */
+    }
+    h3{
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+      
+    }
+    p{
+        font-size: 14px;
+    }
+    table,tr,td,th{
+        border: solid 1px #ccc;
+        border-collapse: collapse;
+        font-size:14px;
+       
+    }
+    table{
+        margin-left: 0px;
+        background-color: #bbb;
+        font-weight: lighter;
+    }
+    td{
+        height:4px;
+        width:30px;
+    }
+    .rowtable{
+        margin-left:0px;
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        background-color: white;
+    }
+    /* .columntable{
+        font-family: Lucida;
+    
+    } */
+    .pr{
+        background-color: chartreuse;
+        border-radius: 5px;
+        border:none;
+        outline:none;
+        width:100%;
+       
+    }
+    #pronomtable{
+        margin-left:0px;
+    }
+    li{
+        list-style-type: none;
+        font-size: 16px;
+    }
+    ul{
+        display:none;
+     
+        height: 400px;
+    }
+
+}

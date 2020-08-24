@@ -1,0 +1,192 @@
+body{background-color: rgba(0, 0, 255, 0.863);
+    padding:0px;
+    margin:0px;
+}
+*{
+    box-sizing:border-box;
+}
+.header{padding:20px;
+    text-align: center;
+    font-size:40px;
+
+}
+.click{width:90px;
+    margin-left:0;
+    position:relative;
+    font-size: 30px;
+    background-color:white;
+    border:none;
+}
+.close{margin-left:225px;
+    border:none;
+    background-color:RED;
+    font-size: 35px;
+}
+.close:hover{background-color: white;
+
+}
+.date,.lists{display:inline-flex;
+
+}
+#nav{background-color:red;
+    height:100%;
+    width:0;
+    top:0px;
+    left:0px;
+    overflow-x:hidden;
+    z-index:1;
+    position: absolute;
+    transition: 0.7s;
+}
+a{text-decoration:none;
+    padding:10px;
+    display:block;
+    color:white;
+    font-size:25px;
+    transition:0.4s;
+}
+a:hover{background-color: black;
+
+}
+.all{display:none; 
+}
+.habilites{
+    width:610px;
+    height:400px;
+    background-color:rgba(255, 255, 255, 0.993);
+    margin:auto;
+    transition: 0.3s;
+}
+h1{text-align: center;
+    color:black;
+}
+.name{
+    color:black;
+    font-size:35px;
+    text-align: left;
+    margin-left:70px;
+}
+.dev{color:orange;
+    font-size:35px;
+}
+.namedev{top:0px;
+
+}
+#experience{height:300px;
+}
+#experience ul li{padding-bottom:15px;
+}
+#formation{height:500px;
+}
+#formation ul li{padding-bottom:15px;
+
+}
+#competence{height:550px;
+
+}
+#competence ul li{padding-bottom:15px;
+
+}
+#contactaddress {height:320px;}
+#centredinteret{height:100px;
+}
+.habilites ul li{
+    font-size: 22px;
+    margin-left:15px;
+}
+.habilites ul li.bigsize{font-size:24px;
+    font-weight: bolder;
+}
+.habilites li{list-style-type: square disc;
+    color:black;
+}
+
+ .bigsize{list-style-type:square;
+    color:black;
+    font-weight: bold;
+}
+/* .habilites:hover{background-color:orange;
+    color:white;
+} */
+footer{background-color: gray;}
+
+/*........... setting for mobiles.................*/
+
+@media (max-width:576px)
+{#nav{background-color:red;
+    height:100%;
+    width:0;
+    top:0px;
+    left:0px;
+    overflow-x:hidden;
+    z-index:1;
+    position: absolute;
+    transition: 0.7s;
+}
+ .click{font-size: 25px;
+    width:60px;
+    margin-left:0px;
+}
+.click:hover{
+    font-size: 30px;
+}
+.close{margin-left:200px;
+    border:none;
+    font-size: 40px;
+}
+.habilites{
+    width:100%;
+    height:500px;
+    background-color:white;
+    margin-left:0px;
+}
+.name{
+    color:black;
+    font-size:24px;
+    text-align:left;
+    margin-left:1px;
+}
+.dev{color:blue;
+    font-size:24px; 
+}
+h1{font-size:25px ;
+}
+h2{font-size: 23px;
+}
+strong{color:black;
+}
+#experience{height:300px;
+}
+#experience ul li{padding-bottom:12px;
+}
+#formation{height:500px;
+    color: black;
+}
+#formation ul li{padding-bottom:12px;
+    color:black;
+}
+#competence{height:500px;
+}
+#competence ul li{padding-bottom:12px;
+}
+#contactaddress {height:300px;
+}
+#centredinteret{height:100px;
+}
+.habilites ul li{
+    line-height: 22px;
+    font-size: 18px;  
+}
+.habilites ul li.bigsize{font-size:21px;
+    font-weight: bolder;
+}
+.habilites ul li{list-style-type: square disc;
+   
+}
+.habilites:hover{background-color:orange;
+}
+footer{background-color: gray;
+}
+
+}
+

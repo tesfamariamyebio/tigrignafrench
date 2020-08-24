@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital@1&family=Zilla+Slab:wght@600&display=swap');
+body{
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box;
+
+}
+.containercontact{
+    width:600px;
+    height:100%;
+    margin-left:400px;
+    padding-top:30px;
+    box-sizing: border-box;
+    font-size: 22px;
+    
+    
+   
+}
+form{
+    background-color:red;
+    display:block;
+    box-sizing: border-box;
+    border: solid 1px white;
+    transition:3s;
+   
+   
+
+    
+}
+input[type=text], select,textarea{
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px red;
+    transition:6s;
+}
+label{padding-left:0px;
+}
+.formremplir{
+    display:flex;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#name,#nom,select,#email{
+    height:50px;
+    width:100%;
+}
+textarea{height:200px;
+    width:100%;
+    resize: vertical;
+    font-size: 22px;
+
+}
+input[type=submit]{
+    text-align: center;
+    font-size: 22px;
+    border:none ;
+    width: 100px;
+    background-color: green;
+    border-radius: 3PX;     
+}
+input[type=submit]:hover{
+    background-color: blue;
+}
+
+input[
+    value='submit'
+]{
+    margin-left: 260px;
+}
+
+
+
+@media (max-width:576px){
+    body{
+        box-sizing: border-box;
+        background-color: white;
+    
+    }
+    .containercontact{
+        width:100%;
+        height:100%;
+        margin-left:0px;
+        padding-top:0px;
+        box-sizing: border-box;
+        font-size: 14px;
+       
+    }
+    form{
+        background-color:red;
+        display:block;
+        box-sizing: border-box;
+        transition:3s;
+        margin-left:80px;
+        margin-right:80px;
+        
+    }
+    input[type=text], select,textarea{
+        width:100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    input[type=email], select,textarea{
+        width:100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    label{padding-left:0px;
+    }
+    .formremplir{
+        display:flex;
+        padding-top:5px;
+        padding-left:5px;
+        padding-right:5px;
+    }
+    
+    #name,#nom,select,#email{
+        height:50px;
+        width:100%;
+    }
+    textarea{height:150px;
+        width:100%;
+        resize: vertical;
+        font-size: 14px;
+    
+    }
+    input[type=submit]{
+        text-align: center;
+        font-size: 14px;
+        border:none ;
+        width: 100px;
+        border-radius: 0PX;
+        transition:6s;
+        padding-top:0px;  
+        background-color:green;
+    }
+    input[type=submit]:hover{
+        background-color: blue;
+    }
+    
+    input[
+        value='submit'
+    ]{
+        margin-left: 100px;
+        height:37px;
+        
+    }
+    
+    
+    
+    
+}
