@@ -94,8 +94,8 @@ input[
         display:block;
         box-sizing: border-box;
         transition:3s;
-        margin-left:80px;
-        margin-right:80px;
+        margin-left:0px;
+        margin-right:0px;
         
     }
     input[type=text], select,textarea{
