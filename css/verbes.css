@@ -57,12 +57,12 @@ h3{text-align:center;
         padding-left:3px;
         margin-bottom:3px;
     }     */
-    .columnverbes2{height:200px;
+    .columnverbes2{height:300px;
         width:100%;
         background-color:gainsboro;
         display:inline-flexbox;
     }
-    .columnverbes1{height:200px;
+    .columnverbes1{height:300px;
         width:100%;
         background-color:#ccc;
         display:inline-flexbox;
@@ -72,8 +72,8 @@ h3{text-align:center;
         font-size: 14px;
     }
     .rowverbes{
-        /* margin-left:50px;
-        margin-right:50px; */
+        margin-left:0px;
+        margin-right:0px;
         margin-top:0px;
       display:inline-flexbox;
         
